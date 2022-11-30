@@ -1,0 +1,14 @@
+#configuration
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/dbsoap
+    username: postgres
+    password: root
+  hibernate:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
